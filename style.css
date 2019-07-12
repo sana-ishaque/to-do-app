@@ -1,0 +1,61 @@
+body {
+    background-image: url(bckd.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* 
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+#content {
+    background-color: #212223b3;
+    width: 250px;
+    height: 250px;
+    /* margin: 100px; */
+    padding: 30px;
+    box-shadow: 1px 1px 3px darkgrey;
+}
+
+input {
+    border: none;
+    border-radius: 5px;
+    height: 26px;
+    background-color: white;
+    text-align: center;
+}
+
+li {
+    padding: 0;
+    text-align: left;
+    margin-left: 10px;
+}
+
+button {
+    border: none;
+    background-color: white;
+    padding: 6px 17px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px white;
+    outline: none;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #212223b3;
+    color:white;
+}
+#current-date{
+    font-size: 12px;
+    margin-top: 0;
+}
